@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <link a href="styles.css" rel="Stylesheet">
+  <main id="main-doc">
+    <section class="main-section" for="Introduction" id="Introduction"><header>Introduction</header>
+    <p></p>
+    <p></p>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <li><li>
+    <li><li>
+    <li><li>
+    <li><li>
+    <li><li>
+      <nav id="navbar">
+      <header>This is an intoduction to what you will learn</header>
+      <a class="nav-link" href="#Introduction" rel="Introduction">Introduction</a>
+      </nav>
+    </section>
+    <section class="main-section" for="What_you_should_already_know" id="What_you_should_already_know"><header>What you should already know</header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <li><li>
+    <li><li>
+    <li><li>
+      <nav id="navbar">
+    <a class="nav-link" href="#What_you_should_already_know" rel="What you should already know">What you should already know</a>
+      </nav>
+    </section>
+    <section class="main-section" for="What_you_will_learn" id="What_you_will_learn"><header>What you will learn</header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <li><li>
+    <li><li>
+      <nav id="navbar">
+      <a class="nav-link" href="#What_you_will_learn" rel="What you will learn">What you will learn</a>
+      </nav>
+    </section>
+    <section class="main-section" for="Pros_and_Cons" id="Pros_and_Cons"><header>Pros and Cons</header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <li><li>
+    <li><li>
+    <li><li>
+    <li><li>
+      <nav id="navbar">
+       <a class="nav-link" href="#Pros_and_Cons" rel="Pros and Cons">Pros and Cons</a>
+      </nav>
+    </section>
+    <section class="main-section" for="Reference" id="Reference">
+      <header>Reference</header>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <code></code>
+    <li><li>
+    <li><li>
+    <li><li>
+    <li><li>
+    <li><li>
+      <nav id="navbar">
+    <a class="nav-link" href="#Reference" rel="Reference">Reference</a>
+      </nav>
+    </section>
+  </main>
+</html>
+
+
+//CSS
+
+@media(max-width:768px) {
+  section {
+    width: 400px;
+  }
+}
+
+#nav-bar {
+  position: absolute;
+  left: 100%;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link a href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">My First Project</h1>
+    <p id="description">Please fill out the following form with the required information</p>
+    <form method="post" id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">
+          name
+          <input id="name" type="text"  required placeholder="Super W. Learner" />
+        </label>
+        <p>
+        <label for="e-mail" id="email-label">
+          e-mail
+          <input id="email" type="email" required placeholder="jabwunza@gmail.com" />
+          </p>
+        </label>
+        <label for="number" id="number-label">
+          <p>
+          number
+          <input id="number" min="10" max="90" type="number" required placeholder="+254 758 024 011" />
+          <p>
+        </label>
+        <label>
+         <p>Gender</p>
+         <select id="dropdown">
+           <option>male</option>
+           <option>female</option>
+           <option>other</option>
+           <option>prefer not to say</option>
+        </label>
+        <label>
+         </select>
+         <p>Would you recommend me for a project?</p>
+         <input type="radio" value="Yes"  name="Yes" />Yes
+         <input type="radio" value="No" name="Yes" />No
+        </label>
+        <label>
+          <p>Do you like my form?</p>
+          <input type="checkbox"  value="Yes" name="Yes" />Yes
+          <input type="checkbox" value="No" name="No" />No
+        </label>
+        <label>
+         <p> What would you recommend I do better?</p>
+         <textarea> </textarea>
+        </label>
+        <p>
+        <label>
+          <input type="submit" id="submit" />
+        </fieldset>
+      </body>
+      </form>
+</html>
+
+//CSS
+
+body {
+  background-color: grey;
+  font-family: Helvetica;
+  padding: auto;
+  margins: auto;
+}
+input {
+  background-color: pink;
+}
