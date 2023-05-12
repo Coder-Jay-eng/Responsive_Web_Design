@@ -1,0 +1,14 @@
+#header-img {
+    display: flex;
+    flex-direction: center;
+    width: 400px;
+  }
+  
+  @media (max-width: 400px) {
+    #nav-bar {
+    position: fixed;
+    top: 50;
+    overflow-y: auto;
+  }
+    }
+  

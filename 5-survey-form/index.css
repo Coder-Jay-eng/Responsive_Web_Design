@@ -1,0 +1,9 @@
+body {
+    background-color: grey;
+    font-family: Helvetica;
+    padding: auto;
+    margins: auto;
+  }
+  input {
+    background-color: pink;
+  }
